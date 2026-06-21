@@ -6,6 +6,6 @@ def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
         time = (target-pos)/spd
         stack.append(time)
 
-        if len(stcah)>=2 and stack[-1]<= stack[-2]:
+        if len(stcak)>=2 and stack[-1]<= stack[-2]:
             stack.pop()
     return len(stack)
